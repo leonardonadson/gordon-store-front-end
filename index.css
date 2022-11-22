@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #2E0F46;
+  padding: 0.8em 1em 0.8em 1em;
+}
+
+header section:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  height: 60px;
+  margin: auto;
+}
+
+header section ul{
+  list-style: none;
+  display: flex;
+}
+
+header section ul li a{
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+#logo-header{
+  margin: 0;
+  width: 10%;
+}
+
+#logo{
+  width: 100px;
+  height: 40px;
+}
+
+#links-header{
+  width: 66%;
+}
+
+#links-header ul{
+  justify-content: center;
+}
+
+#links-header ul li a{
+  padding: 1em;
+}
+
+#lista-itens-header{
+  width: 24%;
+}
+
+.itens-header{
+  width: 45px;
+  height: 45px;
+}
+
+.itens-header1{
+  width: 29px;
+  height: 29px;
+}
+
+.itens-header2{
+  height: 11px;
+  width: 19px;
+}
+
+#lista-itens-header ul{
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lista-itens-header ul li a{
+  padding: 0 0.5em 0 0.5em;  
+}
+
+header{
+  border-bottom: 1px solid white;
+}
+
+#banner{
+  background-color: #2E0F46;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 3em;
+
+}
+
+#gordon{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 96px;
+  color: #FFFFFF;
+  padding-bottom: 4rem;
+}
+
+#botao1{
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #2E0F46;
+  align-items: center;
+  background: #E0CE0D;
+  width: 411px;
+  height: 95px;
+  left: 83px;
+  top: 628px;
+  justify-content: center;
+  
+}
+
+#setacompre{
+  width: 100px;
+  height: 100px;
+  left: 394px;
+  top: 631px;
+}
+
+#divimagemcapa{
+  padding-left: 10em;
+}
+
+#imagemcapa{
+  width: 285px;
+  height: 448px;
+  left: 572px;
+  top: 189px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#container1{
+  align-self: center;
+}
