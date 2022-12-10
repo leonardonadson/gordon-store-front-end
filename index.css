@@ -146,3 +146,127 @@ header{
 #container1{
   align-self: center;
 }
+
+.lista{
+  padding: 2em 8em;
+}
+
+.titulosection{
+  padding-bottom: 0.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 65px;
+  color: #2E0F46;
+}
+
+.listadeprodutos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerproduto{
+  background-color: #2E0F46;
+  left: 81px;
+  top: 1414px;
+}
+
+.conteudocontainer{
+  padding: 1em;
+  margin: 0;
+}
+
+.imagemcontainer{
+width: 297px;
+  height: 457px;  
+}
+
+.tipoproduto{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.tituloproduto{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.precoproduto{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #2E0F46;
+  width: 20%;
+  text-align: center;
+  background: #E0CE0D;
+}
+
+.tipoproduto, .tituloproduto, .precoproduto{
+  margin-top: 8px;
+}
+
+footer{
+  color: #FFFFFF;
+  background-color: #2E0F46;
+  padding-left: 8em;
+  padding-right: 8em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h5{
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+footer section ul li p{
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+footer figure, footer section{
+  padding: 2em;
+}
+
+footer section{
+  align-items: center;
+}
+
+footer section ul li{
+  list-style: none;
+}
+
+#redessociais li img{
+  height: 25px;
+  width: 25px !important;
+  margin-right: 4px;
+}
+
+#formaspagamento ul li img{
+  height: 30px;
+  width: 30px !important;
+  margin-right: 15px;
+}
+
+footer section ul li p{
+  align-self: center;
+}
+ 
+
+#redessociais{
+  display: flex;
+}
+
+#formaspagamento li{
+  display: flex;
+}
