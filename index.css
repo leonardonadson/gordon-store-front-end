@@ -209,6 +209,35 @@ header{
   margin-top: 8px;
 }
 
+.bannercontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 461px;
+  height: 323px;
+
+}
+
+.banner2 p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 82px;
+
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
 footer{
   color: #FFFFFF;
   background-color: #2E0F46;
