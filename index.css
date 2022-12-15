@@ -107,7 +107,7 @@ header{
   padding-bottom: 4rem;
 }
 
-#botao1{
+.botao1{
   display: flex;
   font-style: normal;
   font-weight: 400;
@@ -226,8 +226,9 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 461px;
-  height: 323px;
+  background-repeat: no-repeat;
+  width: 458px;
+  height: 320px;
 
 }
 
@@ -240,8 +241,41 @@ header{
   color: #FFFFFF;
 }
 
+#bannermail{
+  color: #FFFFFF;
+  background-color: #1D092D;
+  padding-top: 1em;
+  padding-bottom: 3em;
 
+}
 
+#conteudobannermail{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#mailimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+#mailimage img{
+  width: 90px;
+  height: 86px;
+  margin-bottom: 10px;
+}
+#conteudointernobannermail{
+  display: flex;
+  justify-content: space-between;
+}
+
+#conteudointernobannermail div h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
 
 
 
