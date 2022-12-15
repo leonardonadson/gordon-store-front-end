@@ -165,8 +165,16 @@ header{
 }
 
 .conteudocontainer{
+  position: relative;
   padding: 1em;
   margin: 0;
+}
+
+.iconfavorito{
+  width: 30px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 
 .imagemcontainer{
