@@ -15,7 +15,7 @@ header section:first-child{
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1200px;
   height: 60px;
   margin: auto;
 }
@@ -116,12 +116,10 @@ header{
   color: #2E0F46;
   align-items: center;
   background: #E0CE0D;
-  width: 411px;
-  height: 95px;
-  left: 83px;
-  top: 628px;
-  justify-content: center;
-  
+  border-radius: 10px;
+  width: 300px;
+  height: 75px;
+  justify-content: space-evenly;
 }
 
 #setacompre{
@@ -131,16 +129,9 @@ header{
   top: 631px;
 }
 
-#divimagemcapa{
-  padding-left: 10em;
-}
-
 #imagemcapa{
-  width: 285px;
-  height: 448px;
-  left: 572px;
-  top: 189px;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 696px;
+  height: 470.05px;
 }
 
 #container1{
@@ -148,6 +139,8 @@ header{
 }
 
 .lista{
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 2em 8em;
 }
 
@@ -155,7 +148,7 @@ header{
   padding-bottom: 0.5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 65px;
   color: #2E0F46;
 }
@@ -177,8 +170,8 @@ header{
 }
 
 .imagemcontainer{
-width: 297px;
-  height: 457px;  
+  width: 178px;
+  height: 274px;  
 }
 
 .tipoproduto{
@@ -206,7 +199,8 @@ width: 297px;
   font-size: 20px;
   line-height: 23px;
   color: #2E0F46;
-  width: 20%;
+  width: 4rem;
+  border-radius: 10px;
   text-align: center;
   background: #E0CE0D;
 }
@@ -244,6 +238,12 @@ footer section{
 
 footer section ul li{
   list-style: none;
+}
+
+.conteudofooter{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
 }
 
 #redessociais li img{
