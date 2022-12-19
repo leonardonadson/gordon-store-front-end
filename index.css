@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+  font-family: BatmanForeverAlternate;
+  src: url(./fonts/BatmanForeverAlternate.ttf);
+}
+
+@font-face {
+  font-family: adineue PRO;
+  src: url(./fonts/adineue\ PRO.ttf);
+}
 
 *{
   margin: 0;
@@ -16,7 +26,7 @@ header section:first-child{
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  height: 60px;
+  height: 45px;
   margin: auto;
 }
 
@@ -29,8 +39,9 @@ header section ul li a{
   color: white;
   display: flex;
   align-items: center;
+  font-family: 'BatmanForeverAlternate', sans-serif;;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 500;
 }
 
@@ -61,8 +72,8 @@ header section ul li a{
 }
 
 .itens-header{
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
 }
 
 .itens-header1{
@@ -94,11 +105,15 @@ header{
   margin: auto;
   justify-content: center;
   padding: 3em;
+}
 
+.conteudobanner{
+  display: flex;
+  max-width: 1000px;
 }
 
 #gordon{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'BatmanForeverAlternate', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 96px;
@@ -108,25 +123,32 @@ header{
 }
 
 .botao1{
+  font-family: 'BatmanForeverAlternate', sans-serif;
   display: flex;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
+
   color: #2E0F46;
   align-items: center;
   background: #E0CE0D;
   border-radius: 10px;
-  width: 300px;
+  width: 320px;
   height: 75px;
   justify-content: space-evenly;
 }
 
+.botao1 p{
+  font-family: 'BatmanForeverAlternate', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+
 #setacompre{
-  width: 100px;
-  height: 100px;
-  left: 394px;
-  top: 631px;
+  height: 39px;
+  width: 54px;
+  left: 23px;
+  top: 30px;
+  border-radius: 0px;
 }
 
 #imagemcapa{
@@ -146,7 +168,7 @@ header{
 
 .titulosection{
   padding-bottom: 0.5em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'adineue PRO', sans-serif;
   font-weight: 700;
   font-size: 45px;
   line-height: 65px;
@@ -201,6 +223,17 @@ header{
   color: #FFFFFF;
 }
 
+.productbottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containercart{
+  display: flex;
+  justify-content: right;
+}
+
 .precoproduto{
   font-family: 'Roboto';
   font-style: normal;
@@ -214,7 +247,7 @@ header{
   background: #E0CE0D;
 }
 
-.tipoproduto, .tituloproduto, .precoproduto{
+.tipoproduto, .tituloproduto, .productbottom{
   margin-top: 8px;
 }
 
@@ -234,6 +267,7 @@ header{
 }
 
 .banner2 p{
+  font-family: 'adineue PRO', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -273,6 +307,7 @@ header{
 }
 
 #conteudointernobannermail div h3{
+  font-family: 'adineue PRO', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -282,6 +317,7 @@ header{
 
 
 footer{
+  font-family: 'Montserrat', sans-serif !important;
   color: #FFFFFF;
   background-color: #2E0F46;
   padding-left: 8em;
