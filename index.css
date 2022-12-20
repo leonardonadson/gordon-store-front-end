@@ -97,6 +97,7 @@ header section ul li a{
 }
 
 #PopUpUsuario{
+  display: none;
   padding: 2em;
   position: absolute;
   background-color: #2E0F46;
