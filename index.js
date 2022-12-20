@@ -125,3 +125,11 @@
 		return -c / 2 * (t * (t - 2) - 1) + b;
 	};
 // SCRIPT CARROSSEL
+
+
+function abrir(PopUp){
+	if(document.getElementById(PopUp).style.display == 'block')
+	document.getElementById(PopUp).style.display = 'none';
+	else
+	document.getElementById(PopUp).style.display = 'block'; 
+}
