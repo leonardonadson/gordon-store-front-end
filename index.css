@@ -123,7 +123,7 @@ header{
   padding-bottom: 4rem;
 }
 
-.botao1{
+/* .botao1{
   font-family: 'BatmanForeverAlternate', sans-serif;
   display: flex;
 
@@ -131,9 +131,8 @@ header{
   align-items: center;
   background: #E0CE0D;
   border-radius: 10px;
-  width: 320px;
-  height: 75px;
-  justify-content: space-evenly;
+
+  
 }
 
 .botao1 p{
@@ -150,6 +149,55 @@ header{
   left: 23px;
   top: 30px;
   border-radius: 0px;
+} */
+
+/* 3D Button */
+.btn-3d {
+  font-family: 'BatmanForeverAlternate', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  align-items: center;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #2E0F46;
+	position: relative;
+	display: flex;
+  justify-content: space-evenly;
+	font-size: 22px;
+  width: 320px;
+  height: 75px;
+  
+	transition: top .01s linear;
+  background: #E0CE0D;
+  width: 320px;
+  height: 75px;
+}
+
+#setacompre{
+  height: 39px;
+  width: 54px;
+  left: 23px;
+  top: 30px;
+} 
+
+.btn-3d:active {
+	top: -9px;
+	right: -9px;
+  color: #2E0F46;
+}
+
+
+
+.btn-3d.yellow {
+  background: #E0CE0D;
+	box-shadow: 
+				8px -8px 0 0 #2E0F46,
+				8px -8px 0 1px #E0CE0D
+}
+.btn-3d.yellow:active {
+	box-shadow: 
+				0 0 0 1px rgba(0,0,0,0.4);
 }
 
 #imagemcapa{
