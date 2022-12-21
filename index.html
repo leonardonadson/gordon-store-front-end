@@ -27,7 +27,7 @@
         <nav>
           <ul>
             <li><a href="javascript:abrir('PopUpSearch')"><img src="./image/search.svg" alt="pesquisar" class="itens-header1"></a></li>
-            <li><a href="#"><img src="./image/cart.svg" alt="carrinho" class="itens-header"></a></li>
+            <li><a href="javascript:abrir('PopUpCart')"><img src="./image/cart.svg" alt="carrinho" class="itens-header"></a></li>
             <li><a href="#"><img src="./image/profile.svg" alt="perfil" class="itens-header"></a></li>
             <li><a href="javascript:abrir('PopUpUsuario')"><img src="./image/arrow.svg" alt="seta" class="itens-header2"></a></li>
           </ul>
@@ -49,41 +49,53 @@
         </button>
       </form>
     </div>
+
     <div id="PopUpCart">
       <div id="header-cart">
-        <a href="">
-          <img src="" alt="">
+        <a href="javascript:abrir('PopUpCart')">
+          <img src="./image/back-white.png" alt="" id="cartback">
         </a>
         <h3>Minha cesta</h3>
-        <div>
-          <img src="" alt="">
-          <div>
-            <p>Numero</p>
+        <div id="cart-img">
+          <img src="./image/cart.svg" alt="">
+          <div  id="cart-indicator">
+            <div>
+              <p>1</p>
+            </div>
+
           </div>
         </div>
       </div>
+
       <div id="body-cart">
         <div class="container-product-cart">
-          <div><img src="" alt=""></div>
           <div>
-            <h2>{Título do Produto}</h2>
-            <div>
-              <div>
-                <p>Preço:</p>
-                <p>{Preço do produto}</p>
+            <img src="./image/hq-miranha.png" alt="">
+          </div>
+          <div class="content-cart">
+            <h2>HQ O ESPETACULAR HOMEM ARANHA DE VOLTA AO LAR</h2>
+            <div class="internal-content1">
+              <div class="itens-cart">
+                <p>Preço: </p>
+                <p>R$ 89,90</p>
               </div>
-              <div>
-                <p>Quantidade:</p>
-                <p>{Quantidade}</p>
+              <div class="itens-cart">
+                <p>Quantidade: </p>
+                <p>1</p>
               </div>
             </div>
-            <p>Código do produto</p>
-            <p>{Código do produto}</p>
-            
-          </div>
+            <div class="itens-cart">
+              <p>Código do produto: </p>
+              <p>0112352</p>
+            </div>
+        </div>
         </div>
       </div>
+      <div id="footer-cart">
+        <a href="">Finalizar pedido</a>
+      </div>
     </div>
+    
   </header>
 	<section id="banner">
 		<div class="conteudobanner">

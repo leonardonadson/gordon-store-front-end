@@ -193,8 +193,153 @@ header section ul li a{
 
 
 #PopUpCart{
+  position: absolute;
+  right: 154px;
+  top: 80px;
+  width: 400px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   display: none;
 }
+
+#header-cart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 0.4em 1em;
+  background: #2E0F46;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 25px 25px;
+}
+
+#cartback{
+  width: 34px;
+  height: 22px;
+}
+
+#header-cart h3{
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 47px;
+}
+
+#cart-img, #cart-img img{
+  cursor: pointer;
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+#cart-indicator{
+  position: absolute;
+  right: 0;
+  top:0;
+}
+
+#cart-indicator > div{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #E0CE0D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#body-cart{
+  min-height: 300px;
+}
+
+.container-product-cart{
+  padding: 1em;
+  margin: 1em;
+  background: rgba(255, 255, 255, 0.23);
+  border: 2px solid #2E0F46;
+  border-radius: 10px;
+  display: flex;
+}
+
+.container-product-cart > div:first-child > img{
+  border: 10px solid #2E0F46;
+  width: 94px;
+  height: 145px;
+  background: #2E0F46;
+  border-radius: 5px;
+}
+
+.content-cart{
+  font-family: 'adineue PRO';
+  font-style: normal;
+  font-weight: 400;
+  color: #2E0F46;
+  padding: 1em;
+}
+
+.content-cart h2{
+  font-size: 15px;
+}
+
+.internal-content1{
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.itens-cart{
+  font-size: 14px;
+  display: flex;
+}
+.itens-cart p:first-child{
+  margin-right: 5px;
+}
+
+.itens-cart p{
+  margin-top: 8px;
+}
+
+
+
+
+#footer-cart{
+  display: flex;
+  justify-content: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#footer-cart a{
+  background: #2E0F46;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 25px;
+  font-family: 'adineue PRO';
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 47px;
+  text-align: center;
+  padding: 0.35em 2em;
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header{
   border-bottom: 1px solid white;
