@@ -757,16 +757,23 @@ html {
 }
 
 .conteudocontainer{
-  position: relative;
+  
   padding: 1em;
   margin: 0;
 }
 
 .iconfavorito{
+  z-index:1;
   width: 30px;
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: -5px;
+  top: -10px;
+}
+
+.containerexterno{
+  position: relative;
+  width: 178px;
+  height: 274px;  
 }
 
 .imagemcontainer{
@@ -794,7 +801,7 @@ html {
 
 .productbottom{
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
 }
 
@@ -804,14 +811,15 @@ html {
 }
 
 .precoproduto{
+  position: absolute;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 23px;
   color: #2E0F46;
   width: 4rem;
-  border-radius: 10px;
+  bottom: 0;
+
   text-align: center;
   background: #E0CE0D;
 }
