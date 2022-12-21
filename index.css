@@ -117,25 +117,31 @@ header section ul li a{
   flex-direction: column;
 }
 
-#PopUpUsuario ul li a img{
-  margin-right: 15px;
+#PopUpUsuario ul li:last-child{
+  width: 100%;
+  border-top: 1px solid #FFFFFF;
 }
 
 #PopUpUsuario ul li a{
   font-family: 'BatmanForeverAlternate', sans-serif;
-  margin-top: 5px;
+  margin-bottom: 8px;
   color: #FFFFFF;
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-#PopUpUsuario ul li:last-child a{
-  margin-top: 20px;
-  padding-top: 5px;
-  border-top: 1px solid #FFFFFF;
+#PopUpUsuario ul li a img{
+  margin-right: 15px;
 }
 
+#PopUpUsuario > ul > li:nth-child(2) > a{
+  margin-bottom: 25px;
+}
+
+#PopUpUsuario ul li:last-child a{
+  padding-top: 8px;
+}
 
 header{
   border-bottom: 1px solid white;
