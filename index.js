@@ -130,6 +130,9 @@
 function abrir(PopUp){
 	if(document.getElementById(PopUp).style.display == 'block')
 	document.getElementById(PopUp).style.display = 'none';
-	else
-	document.getElementById(PopUp).style.display = 'block'; 
+else{
+	document.getElementById("PopUpSearch").style.display = 'none'; 
+	document.getElementById("PopUpCart").style.display = 'none'; 
+	document.getElementById("PopUpUsuario").style.display = 'none'; 
+	document.getElementById(PopUp).style.display = 'block'; }
 }
