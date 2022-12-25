@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+  font-family: BatmanForeverAlternate;
+  src: url(./fonts/BatmanForeverAlternate.ttf);
+}
+
+@font-face {
+  font-family: adineue PRO;
+  src: url(./fonts/adineue\ PRO.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
