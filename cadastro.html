@@ -36,22 +36,15 @@
           <input type="text" name="firstname" placeholder="Primeiro nome" />
           <input type="text" name="lasttname" placeholder="Sobrenome" />
         </div>
-
         <p>CPF:</p>
         <input type="text" name="cpf" placeholder="000.000.000-00" />
         <p>DATA DE NASCIMENTO:</p>
         <input type="text" name="birthday" placeholder="dd/mm/aaaa" />
         <p>SEXO:</p>
-        <div class="flexform">
-          <label class="containerform">Feminino
-            <input type="radio" name="radio">
-            <span class="checkmarkform"></span>
-          </label>
-          <label class="containerform">Masculino
-            <input type="radio" name="radio">
-            <span class="checkmarkform"></span>
-          </label>
-        </div>
+        <select name="sexo" class="personalizar-select">
+          <option value="Feminino" class="personalizar-option">Feminino</option>
+          <option value="Masculino" class="personalizar-option">Masculino</option>
+        </select>
         <span>
           <p>Já tem conta?</p>
           <a href="#">Fazer login</a>

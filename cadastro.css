@@ -66,6 +66,7 @@ main form span a{
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
+  color: #2E0F46;
 }
 
 .flexform{
@@ -80,6 +81,33 @@ main form span a{
   margin-right: 8px;
 }
 
+#generoform{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personalizar-select{
+  display: flex;
+  justify-content: left;
+  font-family: 'adineue PRO';
+  font-style: bold;
+  padding: 3px;
+  font-size: 15px; 
+  border: 1px solid #2E0F46;
+  color: #2E0F46;
+}
+
+.personalizar-option{
+  color: white;
+  background-color: #391f4d;
+}
+
+.personalizar-option:hover, .personalizar-option:active{
+  color: white;
+  background-color: #2E0F46;
+}
 
 
 #msform {
