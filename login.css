@@ -10,8 +10,181 @@
   src: url(./fonts/adineue\ PRO.ttf);
 }
 
+@font-face {
+  font-family: adineue PRO Bold;
+  src: url(./fonts/adineue\ PRO\ Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  padding-top: 5em;
+  padding-bottom: 5em;
+	font-family: montserrat, arial, verdana;
+}
+
+header div > div:first-child{
+  display: flex;
+  justify-content: center;
+}
+
+header div div{
+  text-align: center;
+}
+
+header div > div > a img{
+  height: 35px;
+}
+
+header div > div h2{
+  color: #2E0F46;
+  font-family: 'BatmanForeverAlternate';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#redeslogin{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  list-style: none;
+}
+
+#redeslogin li img{
+  width: 40px;
+}
+
+
+#msform {
+	width: 350px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+}
+#msform fieldset {
+	background: white;
+	border: 0 none;
+  border: 4px solid #2E0F46;
+  border-radius: 10px;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: 0 10%;
+	
+	/*stacking fieldsets above each other*/
+	position: relative;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+/*inputs*/
+#msform input, #msform textarea {
+	padding: 15px;
+  border: 3px solid #2E0F46;
+  border-radius: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+  font-family: 'Roboto';
+  color: rgba(46, 15, 70, 0.5);
+	font-size: 15px;
+}
+
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #2E0F46;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #2E0F46;
+}
+
+main form h2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+  font-family: 'adineue PRO Bold';
+  font-size: 18px;
+  text-align: left;
+  color: #2E0F46;
+}
+
+main form span:first-child{
+  display: flex;
+  justify-content: left;
+  font-family: 'adineue PRO' !important;
+  font-size: 12px !important;
+}
+
+main form span:first-child label:first-child, main form span label a:first-child{
+  font-family: 'adineue PRO' !important;
+  font-size: 12px !important;
+}
+
+#conectedspan{
+  display: flex;
+  justify-content: left;
+  font-family: 'adineue PRO' !important;
+  font-size: 12px !important;
+}
+
+#conectedspan label{
+  margin-right: 10px;
+}
+
+#conected{
+  width: 3em !important;
+}
+
+#accept{
+  font-family: 'adineue PRO' !important;
+  font-size: 11px !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #2E0F46;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+#msform .action-button:hover, #msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #2E0F46;
+}
+
+#cadastro{
+  display: flex;
+  justify-content: center;
+  font-family: 'adineue PRO' !important;
+  font-size: 11px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#cadastro p{
+  margin-right: 5px;
+}
