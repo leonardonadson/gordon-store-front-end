@@ -21,8 +21,8 @@
 }
 
 body {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 	font-family: montserrat, arial, verdana;
 }
 
@@ -138,22 +138,28 @@ main form span:first-child label:first-child, main form span label a:first-child
 
 #conectedspan{
   display: flex;
-  justify-content: left;
-  font-family: 'adineue PRO' !important;
-  font-size: 12px !important;
+  justify-content: space-between;
+  font-family: 'adineue PRO';
+  font-size: 13px;
 }
 
-#conectedspan label{
-  margin-right: 10px;
+#alertconect{
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 #conected{
-  width: 3em !important;
+  margin: 0 3px 0 0 !important;
+  display: flex;
+  display: flex;
+  align-self: center;
+  width: 15px !important;
 }
 
 #accept{
   font-family: 'adineue PRO' !important;
-  font-size: 11px !important;
+  font-size: 13px !important;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -180,7 +186,7 @@ main form span:first-child label:first-child, main form span label a:first-child
   display: flex;
   justify-content: center;
   font-family: 'adineue PRO' !important;
-  font-size: 11px !important;
+  font-size: 13px !important;
   margin-top: 20px;
   margin-bottom: 20px;
 }
